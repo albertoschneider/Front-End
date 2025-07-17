@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    color: #2c3e50;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #34495e;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-top: 40px;
+    padding-left: 10px;
+    border-left: 5px solid #8e44ad;
+    color: #5e3370;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 16px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8e44ad;
+    box-shadow: 0 0 8px rgba(142, 68, 173, 0.2);
+}
+
+button {
+    background: linear-gradient(to right, #8e44ad, #9b59b6);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #732d91, #8e44ad);
+    transform: translateY(-1px);
+}
+
+#listalivros p {
+    background-color: #fefefe;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-left: 6px solid #2980b9;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    font-size: 15px;
+}
+
+#totalDisponiveis {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px;
+    background-color: #e8f8f5;
+    border-left: 5px solid #1abc9c;
+    color: #117a65;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    button {
+      width: 100%;
+    }
+}

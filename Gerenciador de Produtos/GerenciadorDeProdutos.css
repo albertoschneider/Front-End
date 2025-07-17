@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #ffffff);
+    color: #2c3e50;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2d3436;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #0984e3;
+    border-left: 6px solid #74b9ff;
+    padding-left: 12px;
+    margin-top: 40px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #74b9ff;
+    box-shadow: 0 0 6px rgba(9, 132, 227, 0.3);
+}
+
+button {
+    background: linear-gradient(to right, #0984e3, #74b9ff);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #74b9ff, #0984e3);
+    transform: translateY(-2px);
+}
+
+#resultadoprodutos p {
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-left: 5px solid #00b894;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    font-size: 15px;
+}
+
+#totalProduto,
+#valorTotalEstoque {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px;
+    background-color: #dff9fb;
+    border-left: 5px solid #00cec9;
+    color: #098e8b;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    button {
+      width: 100%;
+    }
+}
